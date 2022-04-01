@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod --reference=/working/olleh /working/hello
+chmod ugo+rwx --reference=olleh hello
