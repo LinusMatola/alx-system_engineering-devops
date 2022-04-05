@@ -6,3 +6,4 @@
 6 cretae variable with value
 7 create global variable
 8 adding variable value to constant
+9division
