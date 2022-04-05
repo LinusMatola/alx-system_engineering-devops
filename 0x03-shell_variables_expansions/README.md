@@ -4,3 +4,4 @@
 4 print environmental variables
 5 list functions, local and environmental var
 6 cretae variable with value
+7 create global variable
