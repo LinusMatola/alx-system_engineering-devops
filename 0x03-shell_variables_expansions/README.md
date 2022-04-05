@@ -5,3 +5,4 @@
 5 list functions, local and environmental var
 6 cretae variable with value
 7 create global variable
+8 adding variable value to constant
