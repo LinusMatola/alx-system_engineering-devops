@@ -3,3 +3,4 @@
 3 path inside path
 4 print environmental variables
 5 list functions, local and environmental var
+6 cretae variable with value
