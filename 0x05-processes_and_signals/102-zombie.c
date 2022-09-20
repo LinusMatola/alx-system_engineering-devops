@@ -12,14 +12,14 @@
 int main(void)
 {
 	int i;
-	pid_t pidme;
+	pid_t ZOMBIE_PID;
 
 	i = 0;
 	while (i < 5)
 	{
 		pidme = fork();
-		if (pidme)
-			printf("Zombie process created, PID: %i\n", pidme);
+		if (ZOMBIE_PID)
+			printf("Zombie process created, PID: %i\n", ZOMBIE_PID);
 		else
 			exit(0);
 		i++;
