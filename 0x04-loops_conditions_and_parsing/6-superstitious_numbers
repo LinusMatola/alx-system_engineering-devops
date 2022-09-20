@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #!/usr/bin/env bash
 # displays the numbers 1 to 20 and displays
 #+ "bad luck from China" after the 4th loop iteration
@@ -21,21 +20,3 @@ while [ "$COUNTER" -le 20 ]; do
     esac
     let COUNTER=COUNTER+1
 done
-=======
-#!/usr/bin/env bash
-# displays number from 1 to 20 except...
-
-i=1
-while [ $i -ne 21 ]; do
-    echo $i
-    case $i in
-	4)
-	    echo "bad luck from China" ;;
-	9)
-	    echo "bad luck from Japan" ;;
-	17)
-	    echo "bad luck from Italy" ;;
-	esac
-    i=$((i+1))
-done
->>>>>>> 02d72db9a735abf9a833bbe85223805978e32401
