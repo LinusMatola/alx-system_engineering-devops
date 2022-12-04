@@ -10,7 +10,7 @@ class { 'nginx':
   package_source => 'nginx-stable',
 }
 
-nginx::resource::server { '34.73.76.135':
+nginx::resource::server { '34.224.5.241':
   listen_port      => 80,
   www_root         => '/var/www/html/',
   vhost_cfg_append => { 'rewrite' => '^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent' },
